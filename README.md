@@ -38,6 +38,24 @@ To compile and run this project on a UNIX-based system, follow these steps:
    ./TestTaskProgram
    ```
 
+## Project Structure
+
+Below is an overview of the key files of the project:
+
+- `main.cpp`: The main entry point to the application.
+- `FilterUniqFlightCode.cpp`: Implements the logic for processing files.
+- `CompareFlightCode.cpp`: Contains logic for comparing flight codes.
+- `GanearateFlightCodes.cpp`: Contains logic for generating flight codes.
+- `FilterUniqFlightCode.h`: Header for file processing functionality.
+- `CompareFlightCode.h`: Header for flight code comparison functionality.
+- `GanearateFlightCodes.h`: Header for flight code generation functions.
+- `1_in.txt`: Sample input file for processing.
+- `2_in.txt`: Another example input file for processing.
+- `1_out.txt`: The result of the programme for the first file 
+- `2_out.txt`: The result of the programme for the second file.
+- `README.md`: A file containing detailed information about the project.
+- `Makefile`: Makefile for compiling the project.
+
 ## Program Menu and Options
 
 Upon execution, the program presents a menu with the following options:
@@ -55,8 +73,9 @@ At the first run, the program will detect the presence of files `1_in.txt` and `
 - `Error open file 1_in.txt`
 - `Error open file 2_in.txt`
 
-After that, the automatic generation of input files will be performed.
-- **Option 2**: This option allows users to compare flight codes. Users can input two flight codes manually, or choose a default set of codes for comparison.
+After that, the automatic generation of input files will be performed. Duplicate emulation is done by duplicating each line
+
+- **Option 2**: This option allows users to compare flight codes. Users can input two flight codes manually, or choose a default set of codes for comparison enter "S".
 - **Option 3**: Exits the program.
 
 ## Output
