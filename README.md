@@ -15,13 +15,19 @@ This is a test project written in C++. The code implements the execution of test
 
 To compile and run this project on a UNIX-based system, follow these steps:
 
-1. **Clone the Repository**:
+1. **Install GIT**
    ```bash
-   git clone https://github.com/MadJacksonI/TestTask.git
+   sudo apt install git
+   ```
+   
+2. **Clone the Repository**:
+   ~/MyDirectory download path for programme files
+   ```bash
+   git clone https://github.com/MadJacksonI/TestTask.git ~/MyDirectory
    cd [your project directory]
    ```
 
-2. **Compiling the Project**:
+4. **Compiling the Project**:
    The project uses `g++` for compilation. Ensure you have `g++` installed. You can check by running `g++ --version` in your terminal. If not installed, you can install it using your package manager. For example, on Ubuntu:
    ```bash
    sudo apt-get install g++
@@ -32,7 +38,7 @@ To compile and run this project on a UNIX-based system, follow these steps:
    $ make
    ```
    
-3. **Running the Program**:
+5. **Running the Program**:
    To run the compiled program, execute:
    ```bash
    ./TestTaskProgram
