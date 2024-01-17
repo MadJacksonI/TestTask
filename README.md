@@ -17,7 +17,7 @@ To compile and run this project on a UNIX-based system, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone [URL to your repository]
+   git clone https://github.com/MadJacksonI/TestTask.git
    cd [your project directory]
    ```
 
