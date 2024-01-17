@@ -23,7 +23,7 @@ To compile and run this project on a UNIX-based system, follow these steps:
 2. **Clone the Repository**:
    ~/MyDirectory download path for programme files
    ```bash
-   git clone https://github.com/MadJacksonI/TestTask.git ~/MyDirectory
+   git clone https://MadJacksonI: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@github.com/MadJacksonI/TestTask.git ~/MyDirectory
    cd [your project directory]
    ```
 
